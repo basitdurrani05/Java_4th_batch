@@ -1,7 +1,7 @@
 // 2).Run Time Polymorphism / Method Overrirding
 
 
-class A{
+class A{   //  Mohan Home
 
     void mohan(){
 
@@ -10,10 +10,10 @@ class A{
 }
 
 
-public class eleventh_oops extends A {
+public class eleventh_oops extends A {   // Mohan college 
 
 
-    @Override
+    @Override   // annontation
     void mohan(){
 
         System.out.println("Mohan is a bad boy");
@@ -23,7 +23,11 @@ public class eleventh_oops extends A {
     public static void main(String[] args) {
 
 
-        eleventh_oops obj = new eleventh_oops();
+        // eleventh_oops obj = new eleventh_oops();
+
+        // A obj = new A();
+
+        // obj.mohan();
 
         
         
